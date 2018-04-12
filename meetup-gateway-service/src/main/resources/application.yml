@@ -1,0 +1,20 @@
+spring: 
+  application: 
+    name: meetup-gateway-service
+
+security:
+  basic:
+    enabled: false
+    
+eureka:
+  client:
+    register-with-eureka: true
+    serviceUrl:
+      defaultZone: https://eureka-f560953d-50b5-49e9-8105-13ad19ccef34.cfapps.io
+
+zuul:
+  routes:
+         meetup-dino-service:
+         path: /api/dino/**
+         url: https://meetup-dino-service.cfapps.io
+      

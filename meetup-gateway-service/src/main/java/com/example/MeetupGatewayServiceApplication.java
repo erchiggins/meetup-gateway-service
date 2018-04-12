@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 
 @SpringBootApplication
-@EnableEurekaClient
 @EnableZuulProxy
+@EnableEurekaClient
 @CrossOrigin
-public class ZuulServiceApplication {
+public class MeetupGatewayServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ZuulServiceApplication.class, args);
+		SpringApplication.run(MeetupGatewayServiceApplication.class, args);
 	}
 
 }
