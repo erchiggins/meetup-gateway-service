@@ -15,15 +15,15 @@ eureka:
     serviceUrl:
       defaultZone: https://eureka-f560953d-50b5-49e9-8105-13ad19ccef34.cfapps.io
 
-zuul:
-  routes:
+#zuul:
+#  routes:
         
-    hydra-question-service:
-      path: /question-service/**
-      url: https://hydra-question-service.cfapps.io
+   # hydra-question-service:
+   #   path: /question-service/**
+   #   url: https://hydra-question-service.cfapps.io
       
-    hydra-skilltype-service:
-      path: /skilltype-service/**
-      url: https://hydra-skilltype-service.cfapps.io
+   # hydra-skilltype-service:
+   #   path: /skilltype-service/**
+    #  url: https://hydra-skilltype-service.cfapps.io
     
 
