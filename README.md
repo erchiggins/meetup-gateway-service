@@ -1,2 +1,2 @@
 # meetup-gateway-service
-Gateway service for ticketing system microservice demo
+Gateway service for DevOps meetup demo
